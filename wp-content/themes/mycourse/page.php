@@ -1,7 +1,7 @@
 <?php get_header(); ?> 
  
-<section class="page-section bg-light pt_60">
-<h1 class="text-center bg-primary mb-5 text-white py_40_40 mont_serrat f_30_32"><?php the_title(); ?></h1>
+<section class="page-section bg-light">
+<h1 class="text-center bg-primary mb-5 text-white ptb_40 mont_serrat f30 lh32"><?php the_title(); ?></h1>
     <div class="container">
         <div class="row">
             <div class="col-12">

@@ -10,7 +10,7 @@ $post_type = $post->post_type;
 ?>
 
 <section class="page-section bg-light pt_60">
-    <h1 class="text-center bg-primary mb-5 text-white py_40_40 mont_serrat f_30_32"><?php the_title(); ?></h1>
+    <h1 class="text-center bg-primary mb-5 text-white ptb_40 mont_serrat f30 lh32"><?php the_title(); ?></h1>
     <div class="container">
         <div class="form-row">
             <div class="col-12 col-sm-7">
@@ -23,7 +23,7 @@ $post_type = $post->post_type;
                     ?>
                     <div class="card mb-4 r_0">
                         <div class="card-header r_0 bg-dark">
-                            <h3 class="m-0 f_20_22"><a class="d-block text-white tdn" href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h3>
+                            <h3 class="m-0 f20 lh22"><a class="d-block text-white tdn" href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h3>
                         </div>
                         <div class="card-body">
                             <?php 
@@ -80,7 +80,7 @@ $post_type = $post->post_type;
                 ?>
                 <div class="card mb-4 r_0">
                   <div class="card-header r_0 text-white bg-dark">
-                    <h4 class="card-title m-0 f_20_22"><?php echo $term_name; ?></h4>
+                    <h4 class="card-title m-0 f20 lh22"><?php echo $term_name; ?></h4>
                   </div>
                   <div class="card-body p-0"> 
                     <ul class='list-group list-group-flush'> 

@@ -35,7 +35,7 @@ function iq_questions_list($atts) {
                 ?>
                 <div class="card r_0 mb-4">
                   <div class="card-header bg-dark r_0">
-                    <h4 class="card-title m-0 f_20_22 text-white text_bold"><span class="mr-1"><?php echo $count; ?>)</span> <?php the_title(); ?></h4>
+                    <h4 class="card-title m-0 f20 lh22 text-white text_bold"><span class="mr-1"><?php echo $count; ?>)</span> <?php the_title(); ?></h4>
                   </div>
                   <div class="card-body pb-0"> 
                     <?php the_content(); ?>

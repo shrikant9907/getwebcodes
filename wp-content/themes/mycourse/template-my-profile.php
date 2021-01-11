@@ -647,7 +647,7 @@ if(is_array($show_contact) && in_array('Yes',$show_contact)) {
 
                 <div class="col-12 text-center">
                     <h2 class="heading_style m_b_30"><?php echo $contact_heading; ?></h2>
-                    <!-- <h3 class="m_b_30 f_20_22"><?php //echo $contact_sub_heading; ?></h3> -->
+                    <!-- <h3 class="m_b_30 f20 lh22"><?php //echo $contact_sub_heading; ?></h3> -->
                     <!-- <div class="m_b_50"><?php //echo $contact_description; ?></divr> -->
                 </div>
 
@@ -658,7 +658,7 @@ if(is_array($show_contact) && in_array('Yes',$show_contact)) {
             <div class="row">
                 <div class="col-12 col-md-6 offset-md-3">
                     <div class="card box_shw2 border-0 p_20 r_10 m_b_10" >
-                        <div class="card-header bg-white f_20_22 border-0 text-center">Contact me for your queries.</div>
+                        <div class="card-header bg-white f20 lh22 border-0 text-center">Contact me for your queries.</div>
                         <div class="card-body">
                             <?php echo do_shortcode($contact_form_shortcode); ?>       
                         </div>

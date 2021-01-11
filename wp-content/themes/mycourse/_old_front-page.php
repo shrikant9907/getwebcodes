@@ -5,11 +5,11 @@ get_header();
 
 <div class="pt_100 d-flex align-items-center">
  <div class="container">
-  <div class="mr-auto text-center py_40_40">
+  <div class="mr-auto text-center ptb_40">
     <div class="row">
      <div class="col-12">
       <h1>
-        <span class="d-block w-100 text-primary mb_10 f_30_32">Welcome to All Programs .tech</span>
+        <span class="d-block w-100 text-primary mb_10 f30 lh32">Welcome to All Programs .tech</span>
       </h1>
 <!--       <h2>
            <span class="d-block w-100 text_light mb_20 f_40_42">Programing is all about practice. </span>
@@ -58,7 +58,7 @@ Try more programs with more examples to improve your programming skills and logi
                             <a class="card-link h_100 d-flex align-items-center justify-content-center" href="<?php echo $term_link; ?>">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/<?php echo $tutorial['icon']; ?>" alt="<?php echo $tutorial['title']; ?>" class="img-fluid card-img-top w_70 max_h_70">
                             </a>
-                            <h3 class="card-title f_20_22">
+                            <h3 class="card-title f20 lh22">
                                 <a class="text-primary tdn" href="<?php echo $term_link; ?>">
                                     <?php echo $tutorial['title']; ?>
                                 </a>

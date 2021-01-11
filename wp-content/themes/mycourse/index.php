@@ -1,7 +1,7 @@
 <?php get_header(); ?> 
  
 <section class="page-section">
-    <h1 class="text-white m_b_30 page-heading p_t_90 p_b_30 text-center f_26_28"><?php the_title(); ?></h1>
+<h1 class="text-center bg-primary mb-5 text-white ptb_40 mont_serrat f30 lh22"><?php _e('Blog'); ?></h1>
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-8">

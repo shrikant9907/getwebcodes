@@ -11,6 +11,20 @@ function insertDefaultPages() {
         'Categories',
         'Quizzes',
         'Interview',
+        'FAQs',
+        'MCQ\'s',
+        'Sitemap',
+        'Privacy Policy',
+        'Terms and conditions',
+        'Tools',
+        'WordPress',
+        'Angular',
+        'Bootstrap',
+        'HTML and CSS',
+        'Basic of PHP',
+        'Advance PHP',
+        'Basic of Python',
+        'Advance Python',
     );
     if ($pages) {
   
@@ -66,8 +80,8 @@ function custom_tutorsincity_widgets_init() {
     'id'            => 'main-sidebar-1',
     'before_widget' => '<div id="%1$s" class="card cui2 noshadow r_0 w-100 typography %2$s">',
     'after_widget'  => '</div></div>',
-    'before_title'  => '<div class="text-primary card-header mb-0"><h3>',
-    'after_title'   => '</h3></div><div class="card-body px-0 pt-0">',
+    'before_title'  => '<div class="text-primary pti_20 pri_30 pli_30 pbi_0"><h3 class="mb-0">',
+    'after_title'   => '</h3></div><div class="card-body f16 listing">',
   ));  
     
   register_sidebar( array(

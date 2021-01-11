@@ -6,9 +6,9 @@
                  <h3 class="text-primary f16 lh18 mb_20 text-uppercase text_bold">Get in touch</h3>
                <!-- <p><img class="footer_logo" src="https://picsum.photos/id/475/300/100" alt="" /></p> -->
 	                    <ul class="address">
-                        <li><i class="fas fa-phone-alt text-primary"></i> <a href="mailto:0000000000">000 000 0000</a></li>
+                        <!-- <li><i class="fas fa-phone-alt text-primary"></i> <a href="mailto:0000000000">000 000 0000</a></li> -->
                         <li> <i class="fa fa-envelope text-primary" aria-hidden="true"></i><a href="mailto:info@getwebcodes.in">info@getwebcodes.in</a></li>
-                        <li><i class="fas fa-map text-primary"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </li>
+                        <!-- <li><i class="fas fa-map text-primary"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </li> -->
                       </ul>
                       <ul class="socialicons f14 colored siconsc"> 
                         <li class="facebook"><a href="#" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -20,22 +20,22 @@
 	               	<div class="col-6 col-md-3">
                     <h3 class="text-primary f18 lh22 mb_20 text-uppercase">Learn Codes</h3>
                     <ul class="menu">
-                      <li><a href="#">WordPress</a></li>
-                      <li><a href="#">Angular</a></li>
-                      <li><a href="#">Bootstrap</a></li>
-                      <li><a href="#">HTML and CSS</a></li>
-                      <li><a href="#">PHP Programming</a></li>
-                      <li><a href="#">Python Programming</a></li>
+                      <li><a href="<?php echo site_url('/wordpress'); ?>">WordPress</a></li>
+                      <li><a href="<?php echo site_url('/angular'); ?>">Angular</a></li>
+                      <li><a href="<?php echo site_url('/bootstrap'); ?>">Bootstrap</a></li>
+                      <li><a href="<?php echo site_url('/html-and-css'); ?>">HTML and CSS</a></li>
+                      <li><a href="<?php echo site_url('/php-programming'); ?>">PHP Programming</a></li>
+                      <li><a href="<?php echo site_url('/python-programming'); ?>">Python Programming</a></li>
                     </ul>
 	                </div>
 	                <div class="col-6 col-md-3">
                       <h3 class="text-primary f18 lh22 mb_20 text-uppercase">Knowledge</h3>
                       <ul class="menu">
-                          <li><a href="#">Blog</a></li>
-                          <li><a href="#">MCQ's</a></li>
-                          <li><a href="#">Test Quzzes</a></li>
-                          <li><a href="#">Interview Questions</a></li>
-                          <li><a href="#">Tools</a></li>
+                          <li><a href="<?php echo site_url('/blog'); ?>">Blog</a></li>
+                          <li><a href="<?php echo site_url('/mcqs'); ?>">MCQ's</a></li>
+                          <li><a href="<?php echo site_url('/quizzes'); ?>">Test Quizzes</a></li>
+                          <li><a href="<?php echo site_url('/interview-questions'); ?>">Interview Questions</a></li>
+                          <li><a href="<?php echo site_url('/tools'); ?>">Tools</a></li>
                           <!-- <li><a href="#">Support</a></li> -->
                           <!-- <li><a href="#">Request a quote</a></li> -->
                           <!-- <li><a href="#">Hire a developer</a></li> -->
@@ -44,9 +44,9 @@
 	                <div class="col-6 col-md-3">
                       <h3 class="text-primary f18 lh22 mb_20 text-uppercase">Resources</h3>
                       <ul class="menu">
-                          <li><a href="#">Sitemap</a></li>
-                          <li><a href="#">Privacy Policy</a></li>
-                          <li><a href="#">Terms and Conditions</a></li>
+                          <li><a href="<?php echo site_url('/sitemap'); ?>">Sitemap</a></li>
+                          <li><a href="<?php echo site_url('/privacy-policy'); ?>">Privacy Policy</a></li>
+                          <li><a href="<?php echo site_url('/terms-and-conditions'); ?>">Terms and Conditions</a></li>
                       </ul>
 	                </div>
 	 			</div>

@@ -18,7 +18,7 @@ if ($term_obj_list['1'] && ($term_obj_list['1']->slug == 'how-to')) {
 ?>  
            
 <section class="page-section bg-light pt_60">
-<h1 class="text-center bg-primary mb-5 text-white py_40_40 mont_serrat f_20_22"><?php the_title(); ?></h1>
+<h1 class="text-center bg-primary mb-5 text-white ptb_40 mont_serrat f20 lh22"><?php the_title(); ?></h1>
     <div class="container">
         <div class="form-row">
             <div class="col-12 col-sm-4">
@@ -44,7 +44,7 @@ if ($term_obj_list['1'] && ($term_obj_list['1']->slug == 'how-to')) {
                 ?>
                 <div class="card mb-4 r_0">
                   <div class="card-header r_0 bg-dark text-white">
-                    <h4 class="card-title m-0 f_20_22"><?php echo $term_name; ?></h4>
+                    <h4 class="card-title m-0 f20 lh22"><?php echo $term_name; ?></h4>
                   </div>
                   <div class="card-body p-0"> 
                     <ul class='list-group list-group-flush'> 
@@ -68,7 +68,7 @@ if ($term_obj_list['1'] && ($term_obj_list['1']->slug == 'how-to')) {
                 <!-- Related Posts -->
                 <div class="card mb-4 r_0">
                   <div class="card-header bg-dark r_0">
-                    <h4 class="card-title m-0 text-white f_20_22">Recommended Programs</h4>
+                    <h4 class="card-title m-0 text-white f20 lh22">Recommended Programs</h4>
                   </div>
                   <div class="card-body"> 
                     <?php   
@@ -104,7 +104,7 @@ if ($term_obj_list['1'] && ($term_obj_list['1']->slug == 'how-to')) {
                                 while(have_posts()): the_post();  
                         ?>
                         <div class="card mb-4 r_0">
-                            <div class="card-header r_0 text-white bg-dark"><h3 class="m-0 f_20_22"><?php the_title(); ?></h3></div>
+                            <div class="card-header r_0 text-white bg-dark"><h3 class="m-0 f20 lh22"><?php the_title(); ?></h3></div>
                             <div class="card-body">
                                 <?php 
                                 $image = wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())) ; 
@@ -135,7 +135,7 @@ if ($term_obj_list['1'] && ($term_obj_list['1']->slug == 'how-to')) {
                                             $methodTitle = $method['method_title'];
                                             $methodOptions = $method['method_options'];
                                             echo '<div class="method border-bottom mb-4">';
-                                            echo "<h4 class='m-0 mb-3 f_20_22 text-primary'>$methodTitle</h4>";
+                                            echo "<h4 class='m-0 mb-3 f20 lh22 text-primary'>$methodTitle</h4>";
                                             $countOption = 1;
                                             foreach($methodOptions as $option) {
                                                 $mode = $option['mode'];

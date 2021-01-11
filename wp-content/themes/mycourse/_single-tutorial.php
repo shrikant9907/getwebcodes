@@ -8,7 +8,7 @@ $term_name = $term_obj_list['0']->name;
 ?> 
            
 <section class="page-section bg-light pt_60">
-<h1 class="text-center bg-primary mb-5 text-white py_40_40 mont_serrat f_20_22">Tutorial: <?php the_title(); ?></h1>
+<h1 class="text-center bg-primary mb-5 text-white ptb_40 mont_serrat f20 lh22">Tutorial: <?php the_title(); ?></h1>
     <div class="container">
         <div class="form-row">
             <div class="col-12 col-sm-4">
@@ -33,7 +33,7 @@ $term_name = $term_obj_list['0']->name;
                 ?>
                 <div class="card r_0 mb-4">
                   <div class="card-header r_0 bg-dark text-white">
-                    <h4 class="card-title m-0 f_20_22"><?php echo $term_name; ?></h4>
+                    <h4 class="card-title m-0 f20 lh22"><?php echo $term_name; ?></h4>
                   </div>
                   <div class="card-body p-0"> 
                     <ul class='list-group list-group-flush'> 
@@ -57,7 +57,7 @@ $term_name = $term_obj_list['0']->name;
                 <!-- Related Posts -->
                 <div class="card r_0 mb-4">
                   <div class="card-header r_0 bg-dark text-white">
-                    <h4 class="card-title m-0 f_20_22">Recommended Programs</h4>
+                    <h4 class="card-title m-0 f20 lh22">Recommended Programs</h4>
                   </div>
                   <div class="card-body"> 
                     <?php   
@@ -96,7 +96,7 @@ $term_name = $term_obj_list['0']->name;
                         ?>
                         <div class="card r_0 mb-3">
                             
-                            <div class="card-header text-white bg-dark"><h3 class="f_20_22 m-0"><?php the_title(); ?></h3></div>
+                            <div class="card-header text-white bg-dark"><h3 class="f20 lh22 m-0"><?php the_title(); ?></h3></div>
                             
                             <div class="card-body f_14_22">
                                 <?php 
@@ -140,7 +140,7 @@ $term_name = $term_obj_list['0']->name;
                                             $code2 = htmlspecialchars($tutorial['_code2']);
                                               
                                             if ($title) {
-                                                echo "<h4 class='m-0 mb-3 f_20_22 text-primary'>$title</h4>";
+                                                echo "<h4 class='m-0 mb-3 f20 lh22 text-primary'>$title</h4>";
                                             }
                                             
                                             echo $text;
