@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Header Design</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        
+        <!--Fontawesome CSS-->  
+        <link rel="stylesheet" type="text/css" href="css/all.min.css">
+         
+        <!--Custom CSS--> 
+        <link rel="stylesheet" type="text/css" href="css/header_style1.css">
+         
+    </head>
+    <body>    
+         
+    <!-- Header Style1 Start -->
+    <header>  
+        <div class="bottom_menus">
+            <div class="container">
+                <nav class="mobile_menu1"> 
+                    <span class="overlay closeMenu"></span>
+                    <span class="hamburger_icon toggleMenu">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </span>
+                    <ul class="main_menu"> 
+                        <li class="menu_item active"> 
+                            <a  href="#">Home</a>
+                        </li> 
+                        <li class="menu_item ">
+                        <a  href="#">About</a>
+                        </li>
+                        <li class="menu_item has_sub_menu">
+                            <a  href="#">Drowpdown</a>
+                            <ul class="sub-menus"> 
+                                <li class="sub_menu_item active"> 
+                                    <a  href="#">Item1</a>
+                                </li> 
+                                <li class="sub_menu_item ">
+                                <a  href="#">Item2</a>
+                                </li>
+                                <li class="sub_menu_item ">
+                                    <a href="#">Item3 </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_item ">
+                            <a  href="#">Contact</a> 
+                        </li>
+                    </ul>
+                </nav> 
+            </div> 
+        </div> 
+    </header>
+    <!-- Header Style1 End -->
+        
+        
+        <!--jQuery-->
+        <script type='text/javascript' src='js/jquery.min.js'></script>
+
+        <!--Fontawesome js-->     
+        <script type='text/javascript' src='js/all.min.js'></script>
+
+        <script type="text/javascript">
+            jQuery('document').ready(function(){
+            
+                jQuery('.closeMenu').on('click', function(event){
+                    if (event.target === this) {
+                        console.log(event.target);
+                        jQuery('.mobile_menu1').removeClass('showMenus');
+                    }
+                });
+
+                jQuery('.toggleMenu').on('click', function(){
+                    jQuery(this).parent().toggleClass('showMenus');
+                });
+
+                
+            });
+        </script>
+    
+    </body>
+</html>

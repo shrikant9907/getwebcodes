@@ -1,0 +1,127 @@
+0000.065 () Opened log file at time: Sat, 09 Jan 2021 15:30:26 +0000 on http://localhost/allprograms
+0000.065 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6 PHP: 7.3.7 (apache2handler, Linux shrikant 4.15.0-128-generic #131-Ubuntu SMP Wed Dec 9 06:57:35 UTC 2020 x86_64) MySQL: 10.3.16-MariaDB WPLANG: en_US Server: Apache/2.4.39 (Unix) OpenSSL/1.0.2s PHP/7.3.7 mod_perl/2.0.8-dev Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.8M | 4.5M) multisite: N openssl: OpenSSL 1.0.2s  28 May 2019 mcrypt: N LANG: en_IN ZipArchive::addFile: Y
+0000.066 () Free space on disk containing Updraft's temporary directory: 44582.5 MB
+0000.084 () Opened log file at time: Sat, 09 Jan 2021 15:30:27 +0000 on http://localhost/allprograms
+0000.085 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6 PHP: 7.3.7 (apache2handler, Linux shrikant 4.15.0-128-generic #131-Ubuntu SMP Wed Dec 9 06:57:35 UTC 2020 x86_64) MySQL: 10.3.16-MariaDB WPLANG: en_US Server: Apache/2.4.39 (Unix) OpenSSL/1.0.2s PHP/7.3.7 mod_perl/2.0.8-dev Perl/v5.16.3 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 26.7M | 2M) multisite: N openssl: OpenSSL 1.0.2s  28 May 2019 mcrypt: N LANG: en_IN ZipArchive::addFile: Y
+0000.085 () Free space on disk containing Updraft's temporary directory: 44582.4 MB
+0000.110 () Ensuring WP_Filesystem is setup for a restore
+0000.110 () WP_Filesystem is setup and ready for a restore
+0000.149 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpr9_options","wpr9_users","wpr9_usermeta","wpr9_commentmeta","wpr9_comments","wpr9_links","wpr9_postmeta","wpr9_posts","wpr9_term_relationships","wpr9_term_taxonomy","wpr9_termmeta","wpr9_terms","wpr9_cfs_sessions","wpr9_cfs_values","wpr9_learnpress_order_itemmeta","wpr9_learnpress_order_items","wpr9_learnpress_question_answermeta","wpr9_learnpress_question_answers","wpr9_learnpress_quiz_questions","wpr9_learnpress_review_logs","wpr9_learnpress_section_items","wpr9_learnpress_sections","wpr9_learnpress_sessions","wpr9_learnpress_user_itemmeta","wpr9_learnpress_user_items","wpr9_litespeed_img_optm","wpr9_litespeed_optimizer","wpr9_smush_dir_images","wpr9_top_ten","wpr9_top_ten_daily","wpr9_trp_dictionary_en_gb_en_us","wpr9_trp_gettext_en_gb","wpr9_trp_gettext_en_us","wpr9_trp_original_meta","wpr9_trp_original_strings","wpr9_wpfm_backup","wpr9_yoast_indexable","wpr9_yoast_indexable_hierarchy","wpr9_yoast_migrations","wpr9_yoast_primary_term","wpr9_yoast_seo_links","wpr9_yoast_seo_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.154 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.185 () Entity: db
+0000.185 () restore_backup(backup_file=backup_2020-10-17-1145_All_Programs_1f061291ef29-db.gz, type=db, info=a:0:{}, last_one=)
+0000.186 () Unpacking backup... (backup_2020-10-17-1145_All_Programs_1f061291ef29-db.gz, 0.5 Mb)
+0000.188 () Database successfully unpacked
+0000.188 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.189 () Using direct MySQL access; value of use_mysqli is: 1
+0000.190 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.523 () Max packet size: 32 MB
+0000.523 () Entering maintenance mode
+0000.524 () Enabling Maintenance mode&#8230;
+0000.525 () is_stored_routine_supported(): An error occurred while attempting to check the support of stored routines creation (Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100316. Please use mysql_upgrade to fix this error - CREATE FUNCTION updraft_test_stored_routine() RETURNS tinyint(1) DETERMINISTIC READS SQL DATA RETURN true)
+0000.526 () Backup of: https://allprograms.tech
+0000.552 () Content URL: https://allprograms.tech/wp-content
+0000.552 () Uploads URL: https://allprograms.tech/wp-content/uploads
+0000.552 () Old table prefix: wpr9_
+0000.552 () Site information: multisite=0
+0000.552 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.554 () New table prefix: wp_
+0000.709 () Processing table (MyISAM): wpr9_options - will restore as: wp_options
+0001.020 () Restoring prior UD configuration (table: wp_options; keys: 98)
+0001.198 () Table prefix has changed: changing options table field(s) accordingly (options)
+0001.198 () Options table fields changed OK
+0001.205 () Processing table (MyISAM): wpr9_users - will restore as: wp_users
+0001.372 () Processing table (MyISAM): wpr9_usermeta - will restore as: wp_usermeta
+0001.540 () Table prefix has changed: changing usermeta table field(s) accordingly
+0001.541 () Usermeta table fields changed OK
+0001.541 () Processing table (MyISAM): wpr9_commentmeta - will restore as: wp_commentmeta
+0001.701 () Processing table (MyISAM): wpr9_comments - will restore as: wp_comments
+0001.853 () Processing table (MyISAM): wpr9_links - will restore as: wp_links
+0002.013 () Processing table (MyISAM): wpr9_postmeta - will restore as: wp_postmeta
+0002.625 () Processing table (MyISAM): wpr9_posts - will restore as: wp_posts
+0002.851 () Processing table (MyISAM): wpr9_term_relationships - will restore as: wp_term_relationships
+0003.071 () Processing table (MyISAM): wpr9_term_taxonomy - will restore as: wp_term_taxonomy
+0003.306 () Processing table (MyISAM): wpr9_termmeta - will restore as: wp_termmeta
+0003.465 () Processing table (MyISAM): wpr9_terms - will restore as: wp_terms
+0003.497 () Processing table (MyISAM): wpr9_cfs_sessions - will restore as: wp_cfs_sessions
+0003.528 () Processing table (MyISAM): wpr9_cfs_values - will restore as: wp_cfs_values
+0003.605 () Database queries processed: 50 in 3.41 seconds
+0003.609 () Processing table (MyISAM): wpr9_learnpress_order_itemmeta - will restore as: wp_learnpress_order_itemmeta
+0003.638 () Processing table (MyISAM): wpr9_learnpress_order_items - will restore as: wp_learnpress_order_items
+0003.678 () Processing table (MyISAM): wpr9_learnpress_question_answermeta - will restore as: wp_learnpress_question_answermeta
+0003.714 () Processing table (MyISAM): wpr9_learnpress_question_answers - will restore as: wp_learnpress_question_answers
+0003.747 () Processing table (MyISAM): wpr9_learnpress_quiz_questions - will restore as: wp_learnpress_quiz_questions
+0003.780 () Processing table (MyISAM): wpr9_learnpress_review_logs - will restore as: wp_learnpress_review_logs
+0003.815 () Processing table (MyISAM): wpr9_learnpress_section_items - will restore as: wp_learnpress_section_items
+0003.856 () Processing table (MyISAM): wpr9_learnpress_sections - will restore as: wp_learnpress_sections
+0003.891 () Processing table (MyISAM): wpr9_learnpress_sessions - will restore as: wp_learnpress_sessions
+0003.916 () Processing table (MyISAM): wpr9_learnpress_user_itemmeta - will restore as: wp_learnpress_user_itemmeta
+0003.948 () Processing table (MyISAM): wpr9_learnpress_user_items - will restore as: wp_learnpress_user_items
+0003.981 () Processing table (MyISAM): wpr9_litespeed_img_optm - will restore as: wp_litespeed_img_optm
+0004.016 () Processing table (MyISAM): wpr9_litespeed_optimizer - will restore as: wp_litespeed_optimizer
+0004.083 () Processing table (MyISAM): wpr9_smush_dir_images - will restore as: wp_smush_dir_images
+0004.134 () Processing table (MyISAM): wpr9_top_ten - will restore as: wp_top_ten
+0004.317 () Processing table (MyISAM): wpr9_top_ten_daily - will restore as: wp_top_ten_daily
+0004.345 () Processing table (MyISAM): wpr9_trp_dictionary_en_gb_en_us - will restore as: wp_trp_dictionary_en_gb_en_us
+0004.413 () Processing table (MyISAM): wpr9_trp_gettext_en_gb - will restore as: wp_trp_gettext_en_gb
+0004.816 () Processing table (MyISAM): wpr9_trp_gettext_en_us - will restore as: wp_trp_gettext_en_us
+0004.851 () Processing table (MyISAM): wpr9_trp_original_meta - will restore as: wp_trp_original_meta
+0004.940 () Processing table (MyISAM): wpr9_trp_original_strings - will restore as: wp_trp_original_strings
+0004.996 () Processing table (MyISAM): wpr9_wpfm_backup - will restore as: wp_wpfm_backup
+0005.029 () Database queries processed: 100 in 4.83 seconds
+0005.034 () Processing table (InnoDB): wpr9_yoast_indexable - will restore as: wp_yoast_indexable
+0005.807 () Processing table (InnoDB): wpr9_yoast_indexable_hierarchy - will restore as: wp_yoast_indexable_hierarchy
+0006.141 () Processing table (InnoDB): wpr9_yoast_migrations - will restore as: wp_yoast_migrations
+0006.461 () Processing table (InnoDB): wpr9_yoast_primary_term - will restore as: wp_yoast_primary_term
+0006.719 () Processing table (MyISAM): wpr9_yoast_seo_links - will restore as: wp_yoast_seo_links
+0006.755 () Processing table (MyISAM): wpr9_yoast_seo_meta - will restore as: wp_yoast_seo_meta
+0006.805 () Unlocking database and leaving maintenance mode
+0006.805 () Disabling Maintenance mode&#8230;
+0006.806 () Finished: lines processed: 121 in 6.61 seconds
+0006.806 () Cleaning up rubbish...
+0006.817 () Entity: plugins
+0006.817 () restore_backup(backup_file=backup_2020-10-17-1145_All_Programs_1f061291ef29-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:48:"/opt/lampp/htdocs/allprograms/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0006.817 () Unpacking backup... (backup_2020-10-17-1145_All_Programs_1f061291ef29-plugins.zip, 11.5 MB)
+0006.819 () Unzipping backup_2020-10-17-1145_All_Programs_1f061291ef29-plugins.zip to /opt/lampp/htdocs/allprograms/wp-content/upgrade/4b9d21ca/ using UpdraftPlus_ZipArchive, starting index 0
+0007.025 () Unzip progress: 1002 out of 3221 files (5.5 MB, plugins/wordpress-seo/js/dist/admin-global-1511.js)
+0007.264 () Unzip progress: 2003 out of 3221 files (17.2 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Builder/ServiceBuilder.php)
+0007.600 () Unzip progress: 3004 out of 3221 files (36.1 MB, plugins/autoptimize/classes/critcss-inc/admin_settings_adv.php)
+0007.644 () Unzip progress: 3221 out of 3221 files (37.8 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/IdRequiredError.php)
+0007.647 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.647 () Moving old data: can potentially use wp_filesystem method / -old
+0007.647 () Moving old data out of the way...
+0007.777 () Top-level entities being moved: hello.php, akismet, index.php, updraftplus
+0007.778 () Moving unpacked backup into place...
+0008.064 () Top-level entities being moved: autoptimize, reorder-post-within-categories, custom-post-type-widgets, custom-field-suite, index.php, custom-post-type-permalinks, wordpress-seo, duplicate-post, insert-headers-and-footers, updraftplus
+0008.067 () Cleaning up rubbish...
+0008.070 () Entity: themes
+0008.070 () restore_backup(backup_file=backup_2020-10-17-1145_All_Programs_1f061291ef29-themes.zip, type=themes, info=a:2:{s:4:"path";s:47:"/opt/lampp/htdocs/allprograms/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0008.070 () Unpacking backup... (backup_2020-10-17-1145_All_Programs_1f061291ef29-themes.zip, 15.3 MB)
+0008.071 () Unzipping backup_2020-10-17-1145_All_Programs_1f061291ef29-themes.zip to /opt/lampp/htdocs/allprograms/wp-content/upgrade/1b984c68/ using UpdraftPlus_ZipArchive, starting index 0
+0008.632 () Unzip progress: 833 out of 833 files (34.1 MB, themes/all-programs/tutscodes/webdesign/header/webfonts/fa-brands-400.ttf)
+0008.635 () Moving old data: filesystem method / updraft_dir is potentially possible
+0008.635 () Moving old data: can potentially use wp_filesystem method / -old
+0008.635 () Moving old data out of the way...
+0008.676 () Top-level entities being moved: twentytwenty, twentytwentyone, index.php, twentynineteen
+0008.677 () Moving unpacked backup into place...
+0008.746 () Top-level entities being moved: all-programs, twentytwenty, index.php
+0008.746 () Cleaning up rubbish...
+0008.750 () Entity: uploads
+0008.750 () restore_backup(backup_file=backup_2020-10-17-1145_All_Programs_1f061291ef29-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:48:"/opt/lampp/htdocs/allprograms/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0008.750 () Unpacking backup... (backup_2020-10-17-1145_All_Programs_1f061291ef29-uploads.zip, 18.1 MB)
+0008.750 () Unzipping backup_2020-10-17-1145_All_Programs_1f061291ef29-uploads.zip to /opt/lampp/htdocs/allprograms/wp-content/upgrade/1190930e/ using UpdraftPlus_ZipArchive, starting index 0
+0008.858 () Unzip progress: 356 out of 356 files (18.1 MB, uploads/custom-css-js/index.php)
+0008.859 () Moving old data: filesystem method / updraft_dir is potentially possible
+0008.859 () Moving old data: can potentially use wp_filesystem method / -old
+0008.859 () Moving old data out of the way...
+0008.860 () Moving unpacked backup into place...
+0008.891 () Cleaning up rubbish...
+0008.893 () Entity: others
+0008.893 () restore_backup(backup_file=backup_2020-10-17-1145_All_Programs_1f061291ef29-others.zip, type=others, info=a:2:{s:4:"path";s:40:"/opt/lampp/htdocs/allprograms/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0008.893 () Unpacking backup... (backup_2020-10-17-1145_All_Programs_1f061291ef29-others.zip, 2.6 MB)
+0008.893 () Unzipping backup_2020-10-17-1145_All_Programs_1f061291ef29-others.zip to /opt/lampp/htdocs/allprograms/wp-content/upgrade/13038fed/ using UpdraftPlus_ZipArchive, starting index 0
+0009.035 () Unzip progress: 131 out of 131 files (9.3 MB, languages/admin-network-en_GB.mo)
+0009.037 () Cleaning up rubbish...
+0009.037 () Error: Failed to delete working directory after restoring. (/opt/lampp/htdocs/allprograms/wp-content/upgrade/13038fed)
+0009.056 () Restore successful!
+0009.056 () Restore successful

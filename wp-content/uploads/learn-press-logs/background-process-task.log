@@ -1,0 +1,216 @@
+----------10-06-2018 @ 09:37:17----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 14a038ab6d
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/pajyxn390sbm/public_html/devwp/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------10-06-2018 @ 09:37:15----------
+Array
+(
+    [callback] => query_premium_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 14a038ab6d
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/pajyxn390sbm/public_html/devwp/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------10-06-2018 @ 09:37:13----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 14a038ab6d
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/pajyxn390sbm/public_html/devwp/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------10-06-2018 @ 09:37:12----------
+Array
+(
+    [check_tables] => yes
+)
+Array
+(
+    [action] => lp_lp_installer
+    [nonce] => 952267ca30
+    [0] => Array
+        (
+            [check_tables] => yes
+        )
+
+)
+
+
+=> file      :/home/pajyxn390sbm/public_html/devwp/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------10-06-2018 @ 09:37:12----------
+Array
+(
+    [check_tables] => yes
+)
+Array
+(
+    [action] => lp_lp_installer
+    [nonce] => 952267ca30
+    [0] => Array
+        (
+            [check_tables] => yes
+        )
+
+)
+
+
+=> file      :/home/pajyxn390sbm/public_html/devwp/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------10-06-2018 @ 09:37:12----------
+Array
+(
+    [check_tables] => yes
+)
+Array
+(
+    [action] => lp_lp_installer
+    [nonce] => 952267ca30
+    [0] => Array
+        (
+            [check_tables] => yes
+        )
+
+)
+
+
+=> file      :/home/pajyxn390sbm/public_html/devwp/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------10-06-2018 @ 09:37:12----------
+Array
+(
+    [check_tables] => yes
+)
+Array
+(
+    [action] => lp_lp_installer
+    [nonce] => 952267ca30
+    [0] => Array
+        (
+            [check_tables] => yes
+        )
+
+)
+
+
+=> file      :/home/pajyxn390sbm/public_html/devwp/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------10-06-2018 @ 09:37:12----------
+Array
+(
+    [check_tables] => yes
+)
+Array
+(
+    [action] => lp_lp_installer
+    [nonce] => 952267ca30
+    [0] => Array
+        (
+            [check_tables] => yes
+        )
+
+)
+
+
+=> file      :/home/pajyxn390sbm/public_html/devwp/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------10-06-2018 @ 09:37:12----------
+Array
+(
+    [check_tables] => yes
+)
+Array
+(
+    [action] => lp_lp_installer
+    [nonce] => 952267ca30
+    [0] => Array
+        (
+            [check_tables] => yes
+        )
+
+)
+
+
+=> file      :/home/pajyxn390sbm/public_html/devwp/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+

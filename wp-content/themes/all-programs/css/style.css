@@ -1,0 +1,82 @@
+
+body { 
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+body.admin-bar header#main_header {
+    top: 32px;
+}  
+
+code {
+    background: #efefef;
+    padding: 4px 5px;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.logo-img {
+    max-height: 46px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.mont_serrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.CodeMirror {
+    height: auto !important;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.badge-primary,
+.bg-primary {
+    background-color: #ff2e42 !important;
+}
+.text-primary {
+    color: #ff2e42 !important;
+}
+
+.btn {
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color:  #ff2e42 !important;
+    border-color:  #ff2e42 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+/*li.nav-item.dropdown:hover .dropdown-menu {
+    display: block !important;
+}*/
+
+header .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 15px !important;
+    font-size: 14px;
+}
+
+.f_14_16 {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #d1ecf1;
+    border-left: 4px solid #0c5460;
+    border-radius: 0;
+    padding: 7px 15px;
+}
