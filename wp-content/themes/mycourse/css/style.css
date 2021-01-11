@@ -65,7 +65,7 @@ header .full-menu .navbar.navbar-expand-lg .navbar-nav .nav-item .nav-link {
 .btn-secondary {
     border-color:  #009EFA !important; 
 }
-
+ 
 .link,
 .gotoparrow,
 .text-primary,
@@ -73,6 +73,10 @@ header .full-menu .navbar.navbar-expand-lg .navbar-nav .nav-item .nav-link {
 .ourtutorials .card .ciconrc,
 .text_primary {
     color: #FA6C39 !important;
+}
+
+a.text-primary:focus, a.text-primary:hover {
+    color: #ff4400 !important;
 }
 
 .socialicons.bg_dark, .socialicons.bg-dark,
@@ -88,6 +92,10 @@ header .full-menu .navbar.navbar-expand-lg .navbar-nav .nav-item .nav-link {
 .ourtutorials .card .ciconrc,
 .heading_style.type2:before {
     border-color:  #FA6C39 !important;
+}
+
+.btn-primary:hover {
+    background: #ff4400 !important;
 }
 
 .ourtutorials .card .ciconrc {

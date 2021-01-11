@@ -1,5 +1,51 @@
 <?php
+/* 
+* Insert Default Pages
+*/
+add_action('init', 'insertDefaultPages');
+function insertDefaultPages() {
 
+    $pages = array (
+        'Landing Page',
+        'Blog',
+        'Categories',
+        'Quizzes',
+        'Interview',
+    );
+    if ($pages) {
+  
+      update_option('show_on_front', 'page'); 
+  
+      foreach($pages as $page) {
+          $pageData = get_page_by_title( $page );
+          if (!$pageData) {
+  
+            // Create new page
+            $my_post = array(
+              'post_title'    => wp_strip_all_tags( $page ),
+              'post_content'  => '',
+              'post_status'   => 'publish',
+              'post_type'     => 'page',
+            );
+             
+            // Insert page in Database
+            wp_insert_post( $my_post );
+  
+          } else {
+  
+            // Front Page / Landing Page
+            if ($page == 'Landing Page') {
+              update_option('page_on_front', $pageData->ID);   
+            }
+  
+            // Blog Page
+            if ($page == 'Blog') {
+              update_option('page_for_posts', $pageData->ID ); 
+            }
+          }
+      }
+    }
+  }
 
 // Register Nav Menu 
 register_nav_menus( array(
@@ -18,10 +64,10 @@ function custom_tutorsincity_widgets_init() {
     'name'          => __( 'Main Sidebar', 'tutorsincity' ),
     'description'   => 'It will display on Post Details OR Listing pages.',
     'id'            => 'main-sidebar-1',
-    'before_widget' => '<div id="%1$s" class="card r_0 widget_card %2$s">',
+    'before_widget' => '<div id="%1$s" class="card cui2 noshadow r_0 w-100 typography %2$s">',
     'after_widget'  => '</div></div>',
-    'before_title'  => '<div class="card-header bg-dark text-white r_0"><h3>',
-    'after_title'   => '</h3></div><div class="card-body">',
+    'before_title'  => '<div class="text-primary card-header mb-0"><h3>',
+    'after_title'   => '</h3></div><div class="card-body px-0 pt-0">',
   ));  
     
   register_sidebar( array(

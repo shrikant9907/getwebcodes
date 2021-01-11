@@ -136,12 +136,12 @@ function change_slide() {
 
    
 jQuery(window).scroll(function() {    
-    if ($(window).width() > 767) {
-	   var scroll = $(window).scrollTop();
+    if (jQuery(window).width() > 767) {
+	   var scroll = jQuery(window).scrollTop();
        if (scroll >= 400) {
-	        $("body").addClass("scrolled");
+	        jQuery("body").addClass("scrolled");
 	    } else {
-	        $("body").removeClass("scrolled");
+	        jQuery("body").removeClass("scrolled");
 	    }
 	}  
-}); 
+});  
